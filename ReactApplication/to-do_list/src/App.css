@@ -1,0 +1,21 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.card{
+  width: 80%;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.field{
+  width: 100%;
+  text-align: center;
+}
+.box{
+  box-sizing: border-box;
+}

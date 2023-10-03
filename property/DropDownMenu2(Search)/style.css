@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.xyz{
+    width: 400px;
+}
+

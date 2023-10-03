@@ -1,0 +1,56 @@
+.light-bulb {
+    width: 150px;
+    height: 250px;
+}
+
+.bulb {
+    top: 0;
+    left: 70%;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px #848181;
+    overflow: hidden;
+}
+
+.shine {
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4),
+            transparent); */
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    /* opacity: 0.5; */
+}
+
+.glow {
+    top: -50%;
+    left: -50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    filter: blur(50px);
+    transform: rotate(45deg);
+}
+
+.filament {
+    top: 50%;
+    left: 50%;
+    background-color: #f00;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.base {
+    bottom: 4%;
+    left: 120%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.card {
+    border-radius: 10px;
+}
